@@ -1,0 +1,119 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+}
+
+#wrap {
+    background: #444;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+#header {
+    background: #666;
+    width: 700px;
+    margin: 0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 0px 10px 10px #222;
+}
+
+#hero {
+    position: relative;
+    padding: 1em;
+}
+
+#menu {
+    background: #777;
+    line-height: 1.4em;
+}
+#menu ul {
+    display: inline-block;
+    position: relative;
+}
+#menu ul li {
+    list-style: none;
+    float: left;
+}
+#menu ul li a {
+    background: #777;
+    margin: 0 .4em;
+    padding: .4em;
+    text-decoration: none;
+    color: black;
+}
+#menu ul li a:hover {
+    background: #BBB;
+    color: #883;
+}
+
+#body {
+    clear: both;
+    background: #888;
+    width: 700px;
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 3px #222;
+    box-shadow: 0px 0px 10px 10px #222;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#article {
+    width: 470px;
+    padding: 15px;
+    float: left;
+    min-height: 400px;
+}
+#article h3 {
+    padding: 10px;
+    text-shadow: 2px 2px #556;
+    background: #778;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 4px #444;
+}
+#article h3 a {
+    text-decoration: none;
+    color: black;
+}
+#article h3 a:hover {
+    text-decoration: underline;
+    color: #bbb;
+}
+#article p {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+#aside {
+    width:199px;
+    float: right;
+    min-height: 400px;
+    border-left: 1px solid #777;
+}
+#aside ul {
+    list-style: none;
+}
+#aside ul li {
+
+}
+#aside ul li a {
+    text-decoration: none;
+    color: #000;
+}
+#aside ul li a:hover {
+    color: #444;
+}
+
+#footer {
+    clear: both;
+    padding: .7em;
+    border-top: 50px solid #777;
+}
